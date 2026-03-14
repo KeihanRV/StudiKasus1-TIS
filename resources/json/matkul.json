@@ -1,0 +1,23 @@
+{
+    "matkul": [
+        {
+            "id": 1,
+            "nama": "Pemrograman Web",
+            "kode": "PW001",
+            "sks": 3
+        },
+        {
+            "id": 2,
+            "nama": "Basis Data",
+            "kode": "BD002",
+            "sks": 4
+        },
+        {
+            "id": 3,
+            "nama": "Algoritma dan Struktur Data",
+            "kode": "ASD003",
+            "sks": 3
+        }
+    ]
+}
+    
