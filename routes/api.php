@@ -10,3 +10,8 @@ Route::get('/user', function (Request $request) {
 
 Route::get('/matkul', [MatkulController::class, 'index']);
 Route::get('/matkul/{id}', [MatkulController::class, 'show']);
+
+Route::post('/matkul', [MatkulController::class, 'store']);
+Route::put('/matkul/{id}', [MatkulController::class, 'update']);
+Route::patch('/matkul/{id}', [MatkulController::class, 'update']);
+Route::delete('/matkul/{id}', [MatkulController::class, 'destroy']);
